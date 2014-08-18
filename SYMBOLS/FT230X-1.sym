@@ -1,0 +1,190 @@
+v 20130925 2
+T 1900 2200 9 10 1 0 0 6 1
+FT230X
+T 100 3400 8 10 0 0 0 0 1
+description=USB to BASIC UART IC
+T 100 3200 8 10 0 0 0 0 1
+footprint=TSSOP16-63P.fp
+T 500 2500 8 10 1 1 0 6 1
+refdes=U?
+T 1900 2700 8 10 0 1 0 6 1
+numslots=0
+P 0 1300 300 1300 1 0 0
+{
+T 205 1345 5 8 1 1 0 6 1
+pinnumber=8
+T 200 1450 5 8 0 1 0 8 1
+pinseq=8
+T 355 1295 9 8 1 1 0 0 1
+pinlabel=USBDP
+T 350 1300 5 8 0 1 0 2 1
+pintype=in
+}
+P 2300 1600 2000 1600 1 0 0
+{
+T 2095 1645 5 8 1 1 0 0 1
+pinnumber=2
+T 2100 1750 5 8 0 1 0 2 1
+pinseq=2
+T 1945 1595 9 8 1 1 0 6 1
+pinlabel=RTS
+T 1950 1600 5 8 0 1 0 8 1
+pintype=out
+}
+P 2000 2000 2300 2000 1 0 1
+{
+T 2095 2045 5 8 1 1 0 0 1
+pinnumber=1
+T 2100 2150 5 8 0 1 0 2 1
+pinseq=1
+T 1945 1995 9 8 1 1 0 6 1
+pinlabel=TxD
+T 1950 2000 5 8 0 1 0 8 1
+pintype=out
+}
+P 300 1500 0 1500 1 0 1
+{
+T 205 1545 5 8 1 1 0 6 1
+pinnumber=9
+T 200 1650 5 8 0 1 0 8 1
+pinseq=9
+T 355 1495 9 8 1 1 0 0 1
+pinlabel=USBDM
+T 350 1500 5 8 0 1 0 2 1
+pintype=in
+}
+B 300 300 1700 2100 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 100 3600 8 10 0 0 0 0 1
+device=FT230X
+P 300 900 0 900 1 0 1
+{
+T 205 945 5 8 1 1 0 6 1
+pinnumber=11
+T 200 1050 5 8 0 1 0 8 1
+pinseq=11
+T 355 895 9 8 1 1 0 0 1
+pinlabel=RESET
+T 350 900 5 8 0 1 0 2 1
+pintype=in
+}
+P 300 1800 0 1800 1 0 1
+{
+T 205 1845 5 8 1 1 0 6 1
+pinnumber=10
+T 200 1950 5 8 0 1 0 8 1
+pinseq=10
+T 355 1795 9 8 1 1 0 0 1
+pinlabel=3V3OUT
+T 350 1800 5 8 0 1 0 2 1
+pintype=out
+}
+P 2000 1800 2300 1800 1 0 1
+{
+T 2095 1845 5 8 1 1 0 0 1
+pinnumber=4
+T 2100 1950 5 8 0 1 0 2 1
+pinseq=4
+T 1945 1795 9 8 1 1 0 6 1
+pinlabel=RxD
+T 1950 1800 5 8 0 1 0 8 1
+pintype=in
+}
+P 2300 1400 2000 1400 1 0 0
+{
+T 2095 1445 5 8 1 1 0 0 1
+pinnumber=6
+T 2100 1550 5 8 0 1 0 2 1
+pinseq=6
+T 1945 1395 9 8 1 1 0 6 1
+pinlabel=CTS
+T 1950 1400 5 8 0 1 0 8 1
+pintype=in
+}
+P 2300 1000 2000 1000 1 0 0
+{
+T 2095 1045 5 8 1 1 0 0 1
+pinnumber=15
+T 2100 1150 5 8 0 1 0 2 1
+pinseq=15
+T 1945 995 9 8 1 1 0 6 1
+pinlabel=CBUS0
+T 1950 1000 5 8 0 1 0 8 1
+pintype=io
+}
+P 2300 800 2000 800 1 0 0
+{
+T 2095 845 5 8 1 1 0 0 1
+pinnumber=14
+T 2100 950 5 8 0 1 0 2 1
+pinseq=14
+T 1945 795 9 8 1 1 0 6 1
+pinlabel=CBUS1
+T 1950 800 5 8 0 1 0 8 1
+pintype=io
+}
+P 2300 600 2000 600 1 0 0
+{
+T 2095 645 5 8 1 1 0 0 1
+pinnumber=7
+T 2100 750 5 8 0 1 0 2 1
+pinseq=7
+T 1945 595 9 8 1 1 0 6 1
+pinlabel=CBUS2
+T 1950 600 5 8 0 1 0 8 1
+pintype=io
+}
+P 2300 400 2000 400 1 0 0
+{
+T 2095 445 5 8 1 1 0 0 1
+pinnumber=16
+T 2100 550 5 8 0 1 0 2 1
+pinseq=16
+T 1945 395 9 8 1 1 0 6 1
+pinlabel=CBUS3
+T 1950 400 5 8 0 1 0 8 1
+pintype=io
+}
+P 0 2000 300 2000 1 0 0
+{
+T 205 2045 5 8 1 1 0 6 1
+pinnumber=3
+T 200 2150 5 8 0 1 0 8 1
+pinseq=3
+T 355 1995 9 8 1 1 0 0 1
+pinlabel=VCCIO
+T 350 2000 5 8 0 1 0 2 1
+pintype=in
+}
+P 0 2200 300 2200 1 0 0
+{
+T 205 2245 5 8 1 1 0 6 1
+pinnumber=12
+T 200 2350 5 8 0 1 0 8 1
+pinseq=12
+T 355 2195 9 8 1 1 0 0 1
+pinlabel=VCC
+T 350 2200 5 8 0 1 0 2 1
+pintype=in
+}
+P 800 0 800 300 1 0 0
+{
+T 695 150 5 8 1 1 180 6 1
+pinnumber=5
+T 950 200 5 8 0 1 270 2 1
+pinseq=5
+T 800 355 9 8 1 1 90 0 1
+pinlabel=GND
+T 800 350 5 8 0 1 270 8 1
+pintype=in
+}
+P 1100 0 1100 300 1 0 0
+{
+T 895 150 5 8 1 1 180 6 1
+pinnumber=13
+T 1250 200 5 8 0 1 270 2 1
+pinseq=13
+T 1100 355 9 8 1 1 90 0 1
+pinlabel=GND
+T 1100 350 5 8 0 1 270 8 1
+pintype=in
+}

@@ -1,0 +1,205 @@
+v 20130925 2
+T 2200 2500 9 10 1 0 0 6 1
+ATtiny167
+T 100 5000 8 10 0 0 0 0 1
+description=Low-power AVR 8-bit Microcontroller
+T 100 4800 8 10 0 0 0 0 1
+footprint=TSSOP20W-65P.fp
+T 300 2800 8 10 1 1 0 0 1
+refdes=U?
+T 2000 5300 8 10 0 1 0 6 1
+numslots=0
+P 0 2500 300 2500 1 0 0
+{
+T 200 2550 5 8 1 1 0 6 1
+pinnumber=1
+T 200 2650 5 8 0 1 0 8 1
+pinseq=1
+T 350 2500 9 8 1 1 0 0 1
+pinlabel=PA0 (RxD)
+T 350 2500 5 8 0 1 0 2 1
+pintype=io
+}
+P 0 2300 300 2300 1 0 0
+{
+T 200 2350 5 8 1 1 0 6 1
+pinnumber=2
+T 200 2450 5 8 0 1 0 8 1
+pinseq=2
+T 350 2300 9 8 1 1 0 0 1
+pinlabel=PA1 (TxD)
+T 350 2300 5 8 0 1 0 2 1
+pintype=io
+}
+P 0 1900 300 1900 1 0 0
+{
+T 200 1950 5 8 1 1 0 6 1
+pinnumber=3
+T 200 2050 5 8 0 1 0 8 1
+pinseq=3
+T 350 1900 9 8 1 1 0 0 1
+pinlabel=PA2 (MISO)
+T 350 1900 5 8 0 1 0 2 1
+pintype=io
+}
+P 2600 700 2300 700 1 0 0
+{
+T 2395 745 5 8 1 1 0 0 1
+pinnumber=4
+T 2400 850 5 8 0 1 0 2 1
+pinseq=4
+T 2245 695 9 8 1 1 0 6 1
+pinlabel=PA3 (INT1)
+T 2250 700 5 8 0 1 0 8 1
+pintype=io
+}
+P 0 1700 300 1700 1 0 0
+{
+T 200 1750 5 8 1 1 0 6 1
+pinnumber=7
+T 200 1850 5 8 0 1 0 8 1
+pinseq=7
+T 350 1700 9 8 1 1 0 0 1
+pinlabel=PA4 (MOSI)
+T 350 1700 5 8 0 1 0 2 1
+pintype=io
+}
+T 3200 4300 5 10 0 1 180 6 1
+net=Vcc:15
+T 3200 4100 5 10 0 1 180 6 1
+net=GND:6,16
+P 2600 900 2300 900 1 0 0
+{
+T 2395 945 5 8 1 1 0 0 1
+pinnumber=12
+T 2400 1050 5 8 0 1 0 2 1
+pinseq=12
+T 2245 895 9 8 1 1 0 6 1
+pinlabel=PB6 (INT0)
+T 2250 900 5 8 0 1 0 8 1
+pintype=io
+}
+P 2600 300 2300 300 1 0 0
+{
+T 2395 345 5 8 1 1 0 0 1
+pinnumber=11
+T 2400 450 5 8 0 1 0 2 1
+pinseq=11
+T 2245 295 9 8 1 1 0 6 1
+pinlabel=PB7 (RESET)
+T 2250 300 5 8 0 1 0 8 1
+pintype=io
+}
+P 0 1500 300 1500 1 0 0
+{
+T 200 1550 5 8 1 1 0 6 1
+pinnumber=8
+T 200 1650 5 8 0 1 0 8 1
+pinseq=8
+T 350 1500 9 8 1 1 0 0 1
+pinlabel=PA5 (SCK)
+T 350 1500 5 8 0 1 0 2 1
+pintype=io
+}
+P 2600 500 2300 500 1 0 0
+{
+T 2395 545 5 8 1 1 0 0 1
+pinnumber=9
+T 2400 650 5 8 0 1 0 2 1
+pinseq=9
+T 2245 495 9 8 1 1 0 6 1
+pinlabel=PA6 (SS)
+T 2250 500 5 8 0 1 0 8 1
+pintype=io
+}
+P 0 1100 300 1100 1 0 0
+{
+T 200 1150 5 8 1 1 0 6 1
+pinnumber=10
+T 200 1250 5 8 0 1 0 8 1
+pinseq=10
+T 350 1100 9 8 1 1 0 0 1
+pinlabel=PA7 (AREF)
+T 350 1100 5 8 0 1 0 2 1
+pintype=io
+}
+P 2600 1900 2300 1900 1 0 0
+{
+T 2395 1945 5 8 1 1 0 0 1
+pinnumber=20
+T 2400 2050 5 8 0 1 0 2 1
+pinseq=20
+T 2245 1895 9 8 1 1 0 6 1
+pinlabel=PB0 (OC1AU)
+T 2250 1900 5 8 0 1 0 8 1
+pintype=io
+}
+P 2300 1700 2600 1700 1 0 1
+{
+T 2395 1745 5 8 1 1 0 0 1
+pinnumber=19
+T 2400 1850 5 8 0 1 0 2 1
+pinseq=19
+T 2245 1695 9 8 1 1 0 6 1
+pinlabel=PB1 (OC1BU)
+T 2250 1700 5 8 0 1 0 8 1
+pintype=io
+}
+P 2300 1500 2600 1500 1 0 1
+{
+T 2395 1545 5 8 1 1 0 0 1
+pinnumber=18
+T 2400 1650 5 8 0 1 0 2 1
+pinseq=18
+T 2245 1495 9 8 1 1 0 6 1
+pinlabel=PB2 (OC1AV)
+T 2250 1500 5 8 0 1 0 8 1
+pintype=io
+}
+P 2300 1300 2600 1300 1 0 1
+{
+T 2395 1345 5 8 1 1 0 0 1
+pinnumber=17
+T 2400 1450 5 8 0 1 0 2 1
+pinseq=17
+T 2245 1295 9 8 1 1 0 6 1
+pinlabel=PB3 (OC1BV)
+T 2250 1300 5 8 0 1 0 8 1
+pintype=io
+}
+P 300 500 0 500 1 0 1
+{
+T 205 545 5 8 1 1 0 6 1
+pinnumber=14
+T 200 650 5 8 0 1 0 8 1
+pinseq=14
+T 355 495 9 8 1 1 0 0 1
+pinlabel=PB4 (XTAL1)
+T 350 500 5 8 0 1 0 2 1
+pintype=io
+}
+P 300 300 0 300 1 0 1
+{
+T 205 345 5 8 1 1 0 6 1
+pinnumber=13
+T 200 450 5 8 0 1 0 8 1
+pinseq=13
+T 355 295 9 8 1 1 0 0 1
+pinlabel=PB5 (XTAL2)
+T 350 300 5 8 0 1 0 2 1
+pintype=io
+}
+P 300 900 0 900 1 0 1
+{
+T 205 945 5 8 1 1 0 6 1
+pinnumber=5
+T 200 1050 5 8 0 1 0 8 1
+pinseq=5
+T 355 895 9 8 1 1 0 0 1
+pinlabel=AVCC
+T 350 900 5 8 0 1 0 2 1
+pintype=in
+}
+B 300 100 2000 2600 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 100 5200 8 10 0 0 0 0 1
+device=ATtiny167
